@@ -1,0 +1,35 @@
+.my{
+	img{
+		margin: 0 auto;
+		.margin-top(60);
+	}
+	.name{
+		.margin-top(25);
+	}
+	.login-btn {
+		background-color: @headBgColor;
+		color: @defaultColor;
+		.fontSize(16);
+		.width(340);
+		.height(40);
+		.margin-top(300);
+	}
+	.btns{
+		.margin-top(40);
+		button{
+			.width(150);
+			.height(95);
+			.fontSize(16);
+			.margin-left(12);
+			.margin-right(12);
+			background-color: @headBgColor;
+			color: @defaultColor;
+			&.signout{
+				background-color: @dangerColor;
+				.width(340);
+				.height(40);
+				.margin-top(20);
+			}
+		}
+	}
+}
